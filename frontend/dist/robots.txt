@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /pricing
+Allow: /login
+Allow: /register
+
+Disallow: /dashboard
+Disallow: /analyzer
+Disallow: /results
+Disallow: /tracker
+Disallow: /profile
+
+Sitemap: https://hireready.ai/sitemap.xml
