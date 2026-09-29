@@ -1,10 +1,11 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
   headers: {
     'Content-Type': 'application/json'
-  }
+  },
+  timeout: 60000 // 60 seconds timeout to accommodate Render free-tier cold wakeups
 });
 
 // Request interceptor to attach JWT Token
@@ -23,7 +24,6 @@ API.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response && error.response.status === 401) {
-      // Optional auto logout clean up if token invalidated
       if (localStorage.getItem('hireready_token')) {
         localStorage.removeItem('hireready_token');
         localStorage.removeItem('hireready_user');
