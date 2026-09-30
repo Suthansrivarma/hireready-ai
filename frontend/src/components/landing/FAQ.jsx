@@ -6,24 +6,24 @@ export default function FAQ() {
 
   const faqs = [
     {
-      q: 'How does HireReady AI analyze my resume against job descriptions?',
-      a: 'We extract text from your PDF or DOCX file, analyze keyword density, hard skills, soft skills, section headings, and experience alignment using Google Gemini AI models trained on tech hiring standards.'
+      q: 'How does Zara Resume Checker calculate my resume ATS score?',
+      a: 'Zara Resume Checker extracts text from your PDF/DOCX file and evaluates hard skills, missing tech keywords, section headings, and experience alignment against the target job description using AI models trained on tech hiring standards.'
     },
     {
-      q: 'Does HireReady AI invent or fake work experience?',
-      a: 'Never. We strictly follow zero-hallucination rules. If a required skill or qualification is missing from your resume, we flag it as an explicit gap rather than inventing fake job roles or numbers.'
+      q: 'Is Zara Resume Checker completely free to use?',
+      a: 'Yes! Zara Resume Checker is 100% free with unlimited access for all users. You get full ATS match scores, missing keyword reports, AI bullet rewrites, cover letters, interview prep, and PDF exports without any subscriptions or credit cards.'
     },
     {
-      q: 'Will my uploaded resume be stored permanently?',
-      a: 'No. Uploaded resume files are processed in-memory for document text parsing and discarded. Resumes are only saved to your private account if you explicitly choose to save an analysis in your dashboard.'
+      q: 'Does Zara Resume Checker invent or fake work experience?',
+      a: 'Never. We strictly follow zero-hallucination rules. If a required skill or tool is missing from your resume, we flag it as an explicit gap rather than inventing fake job experience.'
     },
     {
-      q: 'What is ATS and why do I need an ATS checker?',
-      a: 'ATS (Applicant Tracking System) is software used by over 90% of companies to parse, filter, and score candidate resumes before a human recruiter views them. An ATS checker helps ensure your document contains standard section titles and relevant keywords.'
+      q: 'Will my uploaded resume be stored or shared publicly?',
+      a: 'No. Uploaded resumes are processed in-memory for document text parsing and discarded. We never share your private resume files.'
     },
     {
-      q: 'Can I export the improved resume as a PDF?',
-      a: 'Yes! Premium and Pro users can generate and download a clean, single-column ATS-friendly PDF version of their optimized resume directly from the results page.'
+      q: 'Can I export the improved resume as an ATS-friendly PDF?',
+      a: 'Yes! You can export a clean, single-column ATS-friendly PDF version of your optimized resume directly from the results page.'
     }
   ];
 
@@ -32,9 +32,9 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center">
-          <h2 className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Got Questions?</h2>
+          <h2 className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Frequently Asked Questions</h2>
           <p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-            Frequently Asked Questions
+            Everything You Need to Know About Zara Resume Checker
           </p>
         </div>
 

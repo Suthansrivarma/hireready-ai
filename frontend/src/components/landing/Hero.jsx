@@ -13,17 +13,17 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-6">
           <Zap className="w-3.5 h-3.5 text-indigo-400" />
-          <span>Built for Students & Tech Professionals</span>
+          <span>100% Free ATS Resume Score Checker & Optimizer</span>
         </div>
 
-        {/* Main Heading */}
+        {/* Main SEO Heading */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight">
-          Beat the ATS. Land More Tech Interviews with <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-indigo-200 bg-clip-text text-transparent">HireReady AI</span>.
+          Check Your <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-indigo-200 bg-clip-text text-transparent">Resume ATS Score</span> Free with <span className="text-white">Zara Resume Checker</span>
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
-          Upload your resume and paste a job description. Get instant overall match score, missing skills, bullet rewrites, tailored cover letters, and 10 interview questions.
+        <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
+          Instant <strong>free ATS resume checker</strong> and job description matcher. Calculate your resume score, discover missing skills, rewrite weak bullet points, and download clean ATS-friendly PDFs.
         </p>
 
         {/* Action Buttons */}
@@ -33,27 +33,27 @@ export default function Hero() {
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-base bg-indigo-600 text-white hover:bg-indigo-500 shadow-xl shadow-indigo-600/30 transition-all hover:shadow-indigo-600/50 hover:-translate-y-0.5"
           >
             <Sparkles className="w-5 h-5 text-indigo-200" />
-            Analyze My Resume Free
+            Check My Resume ATS Score Free
             <ArrowRight className="w-5 h-5" />
           </Link>
           <Link
             to="/pricing"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-base bg-slate-800 text-slate-200 hover:bg-slate-700 border border-slate-700/80 transition-colors"
           >
-            View Pricing Plans
+            Why 100% Free?
           </Link>
         </div>
 
         {/* Trust badges */}
         <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
           <span className="flex items-center gap-1.5">
-            <CheckCircle2 className="w-4 h-4 text-emerald-400" /> Free 1-Click Analysis
+            <CheckCircle2 className="w-4 h-4 text-emerald-400" /> Free ATS Score Checker
           </span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-indigo-400" /> Zero Experience Fabrication
           </span>
           <span className="flex items-center gap-1.5">
-            <FileSearch className="w-4 h-4 text-purple-400" /> ATS-Friendly PDF Export
+            <FileSearch className="w-4 h-4 text-purple-400" /> Clean ATS-Proof PDF Export
           </span>
         </div>
 
@@ -64,7 +64,7 @@ export default function Hero() {
               <div className="w-3 h-3 rounded-full bg-rose-500/80" />
               <div className="w-3 h-3 rounded-full bg-amber-500/80" />
               <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
-              <span className="ml-2 text-xs text-slate-500 font-mono">hireready.ai/analysis-demo</span>
+              <span className="ml-2 text-xs text-slate-500 font-mono">zara-resume-checker.vercel.app</span>
             </div>
             <span className="text-xs bg-emerald-500/10 text-emerald-400 font-semibold px-2.5 py-0.5 rounded-full border border-emerald-500/20">
               Live Preview
@@ -76,13 +76,13 @@ export default function Hero() {
             
             <div className="bg-slate-950/80 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
               <div>
-                <span className="text-xs text-slate-400 font-semibold">OVERALL MATCH SCORE</span>
-                <div className="mt-2 text-3xl font-extrabold text-emerald-400">84%</div>
+                <span className="text-xs text-slate-400 font-semibold">RESUME ATS SCORE</span>
+                <div className="mt-2 text-3xl font-extrabold text-emerald-400">88%</div>
                 <div className="mt-2 w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-400 h-full w-[84%]" />
+                  <div className="bg-emerald-400 h-full w-[88%]" />
                 </div>
               </div>
-              <p className="mt-4 text-xs text-slate-400">Strong alignment with Software Engineer JD requirements.</p>
+              <p className="mt-4 text-xs text-slate-400">Strong alignment with Software Engineer ATS keywords.</p>
             </div>
 
             <div className="bg-slate-950/80 p-5 rounded-xl border border-slate-800">
@@ -92,7 +92,7 @@ export default function Hero() {
                 <span className="px-2 py-1 rounded bg-rose-500/10 text-rose-300 text-xs border border-rose-500/20 font-mono">+ TypeScript</span>
                 <span className="px-2 py-1 rounded bg-rose-500/10 text-rose-300 text-xs border border-rose-500/20 font-mono">+ CI/CD</span>
               </div>
-              <p className="mt-3 text-xs text-slate-400">Explicitly flagged without lying about candidate background.</p>
+              <p className="mt-3 text-xs text-slate-400">Identified as gaps without lying on candidate resume.</p>
             </div>
 
             <div className="bg-slate-950/80 p-5 rounded-xl border border-slate-800">

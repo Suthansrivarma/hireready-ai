@@ -7,19 +7,19 @@ export default function HowItWorks() {
       step: '01',
       icon: Upload,
       title: 'Upload Your Resume',
-      desc: 'Drag & drop your existing PDF or DOCX resume file. Our parser safely extracts text without storing your file permanently.'
+      desc: 'Upload your PDF or DOCX resume. Zara Resume Checker securely extracts text in-memory without sharing your private file.'
     },
     {
       step: '02',
       icon: FileText,
-      title: 'Paste Job Description',
-      desc: 'Paste the target job description you are applying for (e.g. Frontend Engineer, Full Stack Developer, Data Analyst).'
+      title: 'Paste Target Job Description',
+      desc: 'Paste the job posting description you are applying for (Software Engineer, Full Stack, Data Analyst, IT Specialist).'
     },
     {
       step: '03',
       icon: CheckCircle,
-      title: 'Get AI Match & Export',
-      desc: 'Instantly view your overall ATS score, missing skills, strengthened bullet rewrites, tailored cover letter, and clean ATS PDF export.'
+      title: 'Calculate ATS Score & Export',
+      desc: 'Get your instant resume ATS score, missing search keywords, bullet rewrites, tailored cover letter, and clean ATS PDF export.'
     }
   ];
 
@@ -30,10 +30,10 @@ export default function HowItWorks() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Simple 3-Step Process</h2>
           <p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-            How HireReady AI Optimizes Your Application
+            How Zara Resume Checker Calculates Your ATS Score
           </p>
           <p className="mt-4 text-base text-slate-400">
-            No complicated setup. Tailor your resume for any tech job in under 60 seconds.
+            Free ATS resume checker and score optimizer designed to help tech job seekers pass automated ATS filters.
           </p>
         </div>
 

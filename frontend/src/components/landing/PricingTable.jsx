@@ -4,11 +4,11 @@ import { Check, Sparkles, Gift, HeartHandshake } from 'lucide-react';
 
 export default function PricingTable() {
   const freeFeatures = [
-    'Unlimited Resume Analyses',
-    'Overall ATS Match Score & Breakdown',
-    'Matched vs Missing Tech Skills & Keywords',
-    'Critical & Warning ATS Formatting Fixes',
-    'Non-Fabricated Executive Summary Generator',
+    'Unlimited Resume ATS Score Checks',
+    'Overall ATS Match Score & Sub-Score Breakdown',
+    'Matched vs Missing Tech Skills & Search Keywords',
+    'Critical & Warning ATS Formatting Fix Guides',
+    'Non-Fabricated Professional Summary Generator',
     'Action-Oriented Bullet Point Rewriter',
     'Tailored Cover Letter Generator',
     '10 Job-Specific Interview Questions & Answers',
@@ -23,14 +23,14 @@ export default function PricingTable() {
         <div className="text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-bold mb-4">
             <Gift className="w-4 h-4 text-emerald-400" />
-            <span>No Subscriptions. No Credit Cards. 100% Free Forever.</span>
+            <span>100% Free Forever. No Subscriptions. No Credit Cards.</span>
           </div>
 
           <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-            Why Is HireReady AI Completely Free?
+            Why Is Zara Resume Checker Completely Free?
           </h2>
           <p className="mt-4 text-base text-slate-300 leading-relaxed">
-            We believe candidates shouldn't have to pay expensive monthly subscriptions just to optimize their resumes for job applications. HireReady AI is supported by non-intrusive advertisements so you get <strong>unlimited access to all premium AI features for free</strong> while we cover server and AI API costs through ads.
+            We believe job seekers shouldn't have to pay expensive monthly subscriptions just to check their resume ATS score. Zara Resume Checker provides <strong>unlimited access to all premium ATS resume tools 100% free</strong>.
           </p>
         </div>
 
@@ -42,9 +42,9 @@ export default function PricingTable() {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 pb-6 border-b border-slate-800">
             <div>
               <h3 className="text-2xl font-bold text-white flex items-center gap-2">
-                Free Forever Membership <Sparkles className="w-5 h-5 text-indigo-400" />
+                Free Forever Access <Sparkles className="w-5 h-5 text-indigo-400" />
               </h3>
-              <p className="text-xs text-slate-400 mt-1">Unlimited analyses for all students, fresh grads, and IT professionals.</p>
+              <p className="text-xs text-slate-400 mt-1">Unlimited ATS resume checks for all job seekers.</p>
             </div>
             <div className="text-left sm:text-right">
               <span className="text-4xl font-extrabold text-emerald-400">$0</span>
@@ -66,7 +66,7 @@ export default function PricingTable() {
               to="/register"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-base bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-600/30 transition-all hover:-translate-y-0.5"
             >
-              <HeartHandshake className="w-5 h-5" /> Start Free Analysis Now
+              <HeartHandshake className="w-5 h-5" /> Check My Resume ATS Score Free
             </Link>
           </div>
         </div>

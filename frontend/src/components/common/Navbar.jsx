@@ -23,14 +23,14 @@ export default function Navbar() {
           
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition-transform">
               <Sparkles className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-100 to-indigo-200 bg-clip-text text-transparent">
-              HireReady<span className="text-indigo-400 font-extrabold">.AI</span>
+              Zara <span className="text-indigo-400 font-extrabold">Resume Checker</span>
             </span>
-            <span className="hidden sm:inline-block text-[10px] font-extrabold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full uppercase tracking-wider">
-              100% Free
+            <span className="hidden sm:inline-block text-[10px] font-extrabold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+              100% Free ATS
             </span>
           </Link>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
                   }`}
                 >
                   <FileText className="w-4 h-4" />
-                  Analyze Resume
+                  Check ATS Score
                 </Link>
 
                 <Link
@@ -99,10 +99,10 @@ export default function Navbar() {
                   How It Works
                 </Link>
                 <Link to="/#features" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
-                  Features
+                  ATS Features
                 </Link>
                 <Link to="/pricing" className="text-sm font-medium text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1 font-bold">
-                  <Gift className="w-4 h-4" /> Why 100% Free?
+                  <Gift className="w-4 h-4" /> 100% Free Forever
                 </Link>
 
                 <div className="flex items-center gap-3 pl-4 border-l border-slate-800">
@@ -116,7 +116,7 @@ export default function Navbar() {
                     to="/register"
                     className="text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded-xl shadow-lg shadow-indigo-600/25 transition-all hover:shadow-indigo-600/40 hover:-translate-y-0.5"
                   >
-                    Start Free Analysis
+                    Check ATS Score Free
                   </Link>
                 </div>
               </>
@@ -152,7 +152,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-lg text-base font-medium text-slate-200 hover:bg-slate-800"
               >
-                Analyze Resume
+                Check ATS Score
               </Link>
               <Link
                 to="/tracker"
@@ -185,7 +185,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-lg text-base font-medium text-emerald-400 font-bold hover:bg-slate-800"
               >
-                Why 100% Free?
+                100% Free Forever
               </Link>
               <Link
                 to="/login"
@@ -199,7 +199,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block text-center px-3 py-2.5 rounded-xl text-base font-semibold bg-indigo-600 text-white"
               >
-                Start Free Analysis
+                Check ATS Score Free
               </Link>
             </>
           )}
