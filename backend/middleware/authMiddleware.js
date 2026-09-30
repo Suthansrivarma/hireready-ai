@@ -15,11 +15,15 @@ const protect = async (req, res, next) => {
         process.env.JWT_SECRET || 'hireready_super_secret_jwt_key_2026_dev_mode'
       );
 
-      // Check user
+      // Check user in memory or DB safely
       if (req.app.locals.inMemoryUsers && req.app.locals.inMemoryUsers.has(decoded.id)) {
         req.user = req.app.locals.inMemoryUsers.get(decoded.id);
       } else {
-        req.user = await User.findById(decoded.id).select('-passwordHash');
+        try {
+          req.user = await User.findById(decoded.id).select('-passwordHash');
+        } catch (dbErr) {
+          req.user = null;
+        }
       }
 
       if (!req.user) {
