@@ -43,7 +43,7 @@ export default function RegisterPage() {
               <Sparkles className="w-6 h-6" />
             </div>
             <h2 className="text-2xl font-bold text-white">Create Your Account</h2>
-            <p className="text-xs text-slate-400 mt-1">Get 1 free full AI resume analysis instantly</p>
+            <p className="text-xs text-slate-400 mt-1">Get 100% free & unlimited AI resume analyses</p>
           </div>
 
           {error && (
@@ -98,7 +98,7 @@ export default function RegisterPage() {
 
             <div className="space-y-2 pt-2">
               <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Includes 1 Free Resume Analysis
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> 100% Free Unlimited AI Resume Analyses
               </span>
               <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> No credit card required
